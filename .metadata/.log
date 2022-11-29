@@ -126,3 +126,27 @@ Please check for update: Help > Check for Updates
 
 This file has been generated with STM32CubeMX version '6.6.1'.Your current STM32CubeMX version is '6.3.0'.
 Please check for update: Help > Check for Updates
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2022-11-29 15:22:44.873
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\MASA-D~1\AppData\Local\Temp\STM32CubeIDE_3098a1cb7640_8dd7af36d1f2
+!SESSION 2022-11-29 15:23:15.285 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/Users/MASA-Dearborn/Desktop/Github/Airbrakes-Software-2022-2023/
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-11-29 15:23:43.649
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-11-29 15:23:43.709
+!MESSAGE Log4j initialized with config file C:\Users\MASA-Dearborn\Desktop\Github\Airbrakes-Software-2022-2023\.metadata\.log4j.xml
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2022-11-29 15:29:58.759
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.search.SearchResultView" id and the "Classic Search" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-11-29 15:30:00.255
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-11-29 15:30:08.026
+!MESSAGE Indexed 'NUCELO-L412' (27 sources, 121 headers) in 4.04 sec: 12,205 declarations; 58,433 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0.24%)

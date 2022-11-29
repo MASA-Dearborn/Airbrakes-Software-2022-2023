@@ -18,6 +18,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "i2c.h"
+#include "spi.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -86,6 +88,9 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART2_UART_Init();
+  MX_I2C1_Init();
+  MX_I2C3_Init();
+  MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -96,8 +101,6 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
-	  HAL_Delay(250);
-	  HAL_GPIO_TogglePin(LD3_GPIO_Port, LD3_Pin);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
